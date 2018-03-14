@@ -1,0 +1,2 @@
+Toyota;Black;200;1990;150;false;Not available information
+BMW;Green;300;2000;200;true;Not available information
