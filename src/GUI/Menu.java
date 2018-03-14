@@ -87,7 +87,7 @@ public class Menu extends javax.swing.JFrame {
         });
         jMenu1.add(jMenuItem1);
 
-        jMenuItem2.setText("Vehicule");
+        jMenuItem2.setText("Vehicle");
         jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem2ActionPerformed(evt);
@@ -117,7 +117,7 @@ public class Menu extends javax.swing.JFrame {
         });
         jMenu2.add(jMenuItem3);
 
-        jMenuItem4.setText("Vehicule");
+        jMenuItem4.setText("Vehicle");
         jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem4ActionPerformed(evt);
@@ -181,14 +181,14 @@ public class Menu extends javax.swing.JFrame {
 
     private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
         // TODO add your handling code here:
-        InsertVehicule iv = new InsertVehicule();
+        InsertVehicle iv = new InsertVehicle();
         jDesktopPane1.add(iv);
         iv.setVisible(true);
     }//GEN-LAST:event_jMenuItem2ActionPerformed
 
     private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
         // TODO add your handling code here:
-        ShowVehicule lv = new ShowVehicule();
+        ShowVehicle lv = new ShowVehicle();
         jDesktopPane1.add(lv);
         lv.setVisible(true);
     }//GEN-LAST:event_jMenuItem4ActionPerformed

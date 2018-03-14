@@ -13,7 +13,7 @@ package Domain;
 public class University {
     
     private Employee employee;
-    private Vehicule vehicule;
+    private Vehicle vehicule;
    private int amountEmployee;
    private String identification;
    private String ubication;
@@ -26,7 +26,7 @@ public class University {
         this.ubication = "";
    }
 
-    public University(Employee employee, Vehicule vehicule, int amountEmployee, String identification, String ubication) {
+    public University(Employee employee, Vehicle vehicule, int amountEmployee, String identification, String ubication) {
         this.employee = employee;
         this.vehicule = vehicule;
         this.amountEmployee = amountEmployee;
@@ -42,11 +42,11 @@ public class University {
         this.employee = employee;
     }
 
-    public Vehicule getVehicule() {
+    public Vehicle getVehicule() {
         return vehicule;
     }
 
-    public void setVehicule(Vehicule vehicule) {
+    public void setVehicule(Vehicle vehicule) {
         this.vehicule = vehicule;
     }
 

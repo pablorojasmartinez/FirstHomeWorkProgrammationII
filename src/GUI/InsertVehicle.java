@@ -16,7 +16,7 @@ import javax.swing.JOptionPane;
  *
  * @author Pablo Rojas Martínez
  */
-public class InsertVehicule extends javax.swing.JInternalFrame {
+public class InsertVehicle extends javax.swing.JInternalFrame {
     
     File file;
     BufferedWriter bw;
@@ -25,7 +25,7 @@ public class InsertVehicule extends javax.swing.JInternalFrame {
     /**
      * Creates new form InsertarVehiculo
      */
-    public InsertVehicule() {
+    public InsertVehicle() {
         file = new File ("VehiculesFile.txt");
                 try{
             file.createNewFile();

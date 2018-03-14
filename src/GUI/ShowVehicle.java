@@ -15,12 +15,12 @@ import javax.swing.table.DefaultTableModel;
  *
  * @author Pablo Rojas Martínez
  */
-public class ShowVehicule extends javax.swing.JInternalFrame {
+public class ShowVehicle extends javax.swing.JInternalFrame {
 
     /**
      * Creates new form LeerVehiculo
      */
-    public ShowVehicule() {
+    public ShowVehicle() {
         initComponents();
     }
 

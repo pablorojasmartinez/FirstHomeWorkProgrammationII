@@ -7,7 +7,7 @@
 package Data;
 
 import Domain.Employee;
-import Domain.Vehicule;
+import Domain.Vehicle;
 
 /**
  * 

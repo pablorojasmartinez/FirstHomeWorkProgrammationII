@@ -10,7 +10,7 @@ package Domain;
  * 
  * @author Pablo Rojas Martínez
  */
-public class Vehicule {
+public class Vehicle {
 
     private String brand;
     private String color;
@@ -20,7 +20,7 @@ public class Vehicule {
     private boolean use;
     private String notAvailableDate;
 
-    public Vehicule(){
+    public Vehicle(){
         this.brand ="";
         this.color = "";
         this.speed = 0;
@@ -30,7 +30,7 @@ public class Vehicule {
         this.notAvailableDate = "";
     }
     
-    public Vehicule(String brand, String color, int speed,int year, int mileage, boolean use, String notAvailableDate) {
+    public Vehicle(String brand, String color, int speed,int year, int mileage, boolean use, String notAvailableDate) {
         this.brand = brand;
         this.color = color;
         this.speed = speed;

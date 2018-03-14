@@ -6,7 +6,7 @@
 
 import Domain.Employee;
 import Domain.University;
-import Domain.Vehicule;
+import Domain.Vehicle;
 import GUI.Menu;
 import homework1.HomeWork1;
 import org.junit.After;
@@ -56,7 +56,7 @@ public class HomeWorkTest {
 
     @Test
     public void VehiculeTest() {
-        Vehicule v = new Vehicule("marca", "color", 10, 1994, 34, true, "no");
+        Vehicle v = new Vehicle("marca", "color", 10, 1994, 34, true, "no");
         System.out.println(v.toString());
         System.out.println();
     }
@@ -65,7 +65,7 @@ public class HomeWorkTest {
     public void UniversityTest() {
 
         Employee e = new Employee("nombre", "apellido", "id", "salario");
-        Vehicule v = new Vehicule("marca", "color", 10, 1994, 34, true, "no");
+        Vehicle v = new Vehicle("marca", "color", 10, 1994, 34, true, "no");
         University u = new University(e, v, 100, "id", "ubicacion");
         System.out.println(u.toString());
     }
